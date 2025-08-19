@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-md fixed w-full z-50">
       <div className="container mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-blue-600">EduWebs</h1>
+        <h1 className="text-2xl font-bold text-blue-600">Vidyalay Web</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6">
