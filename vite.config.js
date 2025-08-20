@@ -1,12 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: true,   // required for Codespaces
-    port: 5173,   // or whatever Codespaces gives you
+    host: '0.0.0.0', // 👈 forces Vite to listen on all interfaces
+    port: 5173,      // 👈 default port Codespaces expects
   },
-  base: '/', // ✅ for custom domain (vidyalayweb.space)
 })
